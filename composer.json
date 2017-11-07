@@ -1,0 +1,10 @@
+{
+    "name": "toky-esokia/google-plus-api-client",
+    "authors": [
+        {
+            "name": "Toky Herizo",
+            "email": "ta@esokia-webagency.com"
+        }
+    ],
+    "require": {}
+}

@@ -6,5 +6,13 @@
             "email": "ta@esokia-webagency.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Alchemy\\GooglePlusApiClient": "src/contrib/"
+        }
+    }
 }

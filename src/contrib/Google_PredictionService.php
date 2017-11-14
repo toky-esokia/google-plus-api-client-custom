@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Prediction;
-
   /**
    * The "hostedmodels" collection of methods.
    * Typical usage is:

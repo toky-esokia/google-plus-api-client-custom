@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Reseller;
-
   /**
    * The "customers" collection of methods.
    * Typical usage is:

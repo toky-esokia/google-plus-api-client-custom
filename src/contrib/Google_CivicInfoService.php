@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\CivicInfo;
-
   /**
    * The "elections" collection of methods.
    * Typical usage is:

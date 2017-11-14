@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\AdExchangeBuyer;
-
   /**
    * The "accounts" collection of methods.
    * Typical usage is:

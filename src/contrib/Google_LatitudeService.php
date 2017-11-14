@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Latitude;
-
   /**
    * The "currentLocation" collection of methods.
    * Typical usage is:

@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Licensing;
-
   /**
    * The "licenseAssignments" collection of methods.
    * Typical usage is:

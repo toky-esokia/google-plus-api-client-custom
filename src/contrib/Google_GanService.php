@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Gan;
-
   /**
    * The "advertisers" collection of methods.
    * Typical usage is:

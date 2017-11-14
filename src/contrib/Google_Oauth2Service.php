@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Oauth2;
-
   /**
    * The "userinfo" collection of methods.
    * Typical usage is:

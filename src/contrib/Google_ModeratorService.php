@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Moderator;
-
   /**
    * The "votes" collection of methods.
    * Typical usage is:
@@ -636,16 +634,16 @@ namespace Alchemy\GooglePlusApiClient\Moderator;
      * Updates the profile information for the authenticated user. This method supports patch semantics.
      * (profiles.patch)
      *
-     * @param Google_Profile $postBody
+     * @param Google_Moderator_Profile $postBody
      * @param array $optParams Optional parameters.
-     * @return Google_Profile
+     * @return Google_Moderator_Profile
      */
-    public function patch(Google_Profile $postBody, $optParams = array()) {
+    public function patch(Google_Moderator_Profile $postBody, $optParams = array()) {
       $params = array('postBody' => $postBody);
       $params = array_merge($params, $optParams);
       $data = $this->__call('patch', array($params));
       if ($this->useObjects()) {
-        return new Google_Profile($data);
+        return new Google_Moderator_Profile($data);
       } else {
         return $data;
       }
@@ -653,16 +651,16 @@ namespace Alchemy\GooglePlusApiClient\Moderator;
     /**
      * Updates the profile information for the authenticated user. (profiles.update)
      *
-     * @param Google_Profile $postBody
+     * @param Google_Moderator_Profile $postBody
      * @param array $optParams Optional parameters.
-     * @return Google_Profile
+     * @return Google_Moderator_Profile
      */
-    public function update(Google_Profile $postBody, $optParams = array()) {
+    public function update(Google_Moderator_Profile $postBody, $optParams = array()) {
       $params = array('postBody' => $postBody);
       $params = array_merge($params, $optParams);
       $data = $this->__call('update', array($params));
       if ($this->useObjects()) {
-        return new Google_Profile($data);
+        return new Google_Moderator_Profile($data);
       } else {
         return $data;
       }
@@ -671,14 +669,14 @@ namespace Alchemy\GooglePlusApiClient\Moderator;
      * Returns the profile information for the authenticated user. (profiles.get)
      *
      * @param array $optParams Optional parameters.
-     * @return Google_Profile
+     * @return Google_Moderator_Profile
      */
     public function get($optParams = array()) {
       $params = array();
       $params = array_merge($params, $optParams);
       $data = $this->__call('get', array($params));
       if ($this->useObjects()) {
-        return new Google_Profile($data);
+        return new Google_Moderator_Profile($data);
       } else {
         return $data;
       }
@@ -971,7 +969,7 @@ class Google_ModeratorVotesResourcePartial extends Google_Model {
   }
 }
 
-class Google_Profile extends Google_Model {
+class Google_Moderator_Profile extends Google_Model {
   public $kind;
   protected $__attributionType = 'Google_ProfileAttribution';
   protected $__attributionDataType = '';

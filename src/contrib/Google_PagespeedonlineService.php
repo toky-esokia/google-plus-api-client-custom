@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\PageSpeedOnline;
-
   /**
    * The "pagespeedapi" collection of methods.
    * Typical usage is:

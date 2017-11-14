@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Books;
-
   /**
    * The "bookshelves" collection of methods.
    * Typical usage is:

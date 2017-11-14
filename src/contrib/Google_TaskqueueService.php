@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\TaskQueue;
-
   /**
    * The "taskqueues" collection of methods.
    * Typical usage is:

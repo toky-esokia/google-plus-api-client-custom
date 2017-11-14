@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\CustomSearch;
-
   /**
    * The "cse" collection of methods.
    * Typical usage is:
@@ -253,7 +251,7 @@ class Google_PromotionImage extends Google_Model {
   }
 }
 
-class Google_Query extends Google_Model {
+class Google_Customsearch_Query extends Google_Model {
   public $count;
   public $cr;
   public $cref;
@@ -515,7 +513,7 @@ class Google_Query extends Google_Model {
   }
 }
 
-class Google_Result extends Google_Model {
+class Google_Customsearch_Result extends Google_Model {
   public $cacheId;
   public $displayLink;
   public $fileFormat;
@@ -746,7 +744,7 @@ class Google_Search extends Google_Model {
   public function getPromotions() {
     return $this->promotions;
   }
-  public function setQueries(Google_Query $queries) {
+  public function setQueries(Google_Customsearch_Query $queries) {
     $this->queries = $queries;
   }
   public function getQueries() {

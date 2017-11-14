@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\UrlShortener;
-
   /**
    * The "url" collection of methods.
    * Typical usage is:

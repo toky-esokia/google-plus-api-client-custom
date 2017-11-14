@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Blogger;
-
   /**
    * The "blogUserInfos" collection of methods.
    * Typical usage is:

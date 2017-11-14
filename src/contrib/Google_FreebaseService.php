@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Freebase;
-
   /**
    * The "text" collection of methods.
    * Typical usage is:

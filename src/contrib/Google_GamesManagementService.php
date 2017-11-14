@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\GamesManagement;
-
   /**
    * The "achievements" collection of methods.
    * Typical usage is:

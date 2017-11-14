@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\BigQuery;
-
   /**
    * The "datasets" collection of methods.
    * Typical usage is:

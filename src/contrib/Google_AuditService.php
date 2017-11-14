@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Audit;
-
   /**
    * The "activities" collection of methods.
    * Typical usage is:

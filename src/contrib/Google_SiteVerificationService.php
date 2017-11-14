@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\SiteVerification;
-
   /**
    * The "webResource" collection of methods.
    * Typical usage is:

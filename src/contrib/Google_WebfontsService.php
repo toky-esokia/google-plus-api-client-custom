@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\WebFonts;
-
   /**
    * The "webfonts" collection of methods.
    * Typical usage is:

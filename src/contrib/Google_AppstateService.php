@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\AppState;
-
   /**
    * The "states" collection of methods.
    * Typical usage is:

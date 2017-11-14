@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Translate;
-
   /**
    * The "detections" collection of methods.
    * Typical usage is:

@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\Shopping;
-
   /**
    * The "products" collection of methods.
    * Typical usage is:

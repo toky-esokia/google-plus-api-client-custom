@@ -13,8 +13,6 @@
  * the License.
  */
 
-namespace Alchemy\GooglePlusApiClient\AndroidPublisher;
-
   /**
    * The "inapppurchases" collection of methods.
    * Typical usage is:
